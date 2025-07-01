@@ -1,0 +1,42 @@
+/* style.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+  }
+  a {
+    color: #6a1b9a;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  a:hover {
+    color: #4a0072;
+    text-decoration: underline;
+  }
+  button {
+    cursor: pointer;
+  }
+  input, select, textarea {
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+  }
+  hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 30px 0;
+  }
+  .alert {
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 0.95em;
+  }
+  .alert-success {
+    background-color: #dcedc8;
+    color: #33691e;
+  }
+  .alert-error {
+    background-color: #ffcdd2;
+    color: #b71c1c;
+  }
+  
